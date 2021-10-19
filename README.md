@@ -44,6 +44,10 @@ This is an example for training spring boot myself.
 - [ ] Makefile
 - [ ] 400/403/404/500 page
 - [ ] HTTP request/response by custom requests.
+- [ ] Azure service - Blob
+- [ ] Azure service - Storage table
+- [ ] Azure service - Cosmos DB
+- [ ] Azure service - IoT Hub
 
 # Author
 linth
