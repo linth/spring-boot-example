@@ -21,10 +21,13 @@ This is an example for training spring boot myself.
 - [ ] config
 - [ ] entity
 - [ ] model
+- [ ] filter
+- [ ] interceptor
 - [ ] controller
 - [x] exception (error exception handling)
 - [ ] spring boot admin
 - [ ] docker and kubernetes
+- [ ] Tomcat
 - [ ] logging (@Slf4j, or others)
 - [ ] swagger v3
 - [ ] WSGI and ASGI
