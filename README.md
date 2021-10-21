@@ -6,7 +6,7 @@ This is an example for training spring boot myself.
 
 ---
 # Spring boot project structure
-- [ ] spring boot project
+- [x] spring boot project
 - [ ] spring boot application (multiple applications)
 - [x] spring boot REST API
 - [ ] configuration (dev, test, prod)
