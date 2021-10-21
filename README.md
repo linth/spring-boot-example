@@ -22,7 +22,7 @@ This is an example for training spring boot myself.
 - [ ] entity
 - [ ] model
 - [ ] filter
-- [ ] interceptor
+- [x] interceptor
 - [ ] controller
 - [x] exception (error exception handling)
 - [ ] spring boot admin
