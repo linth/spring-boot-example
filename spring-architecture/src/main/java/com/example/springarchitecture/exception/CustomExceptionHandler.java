@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
  * 
  * Reference:
  *  - https://www.tpisoftware.com/tpu/articleDetails/1334
+ *  - https://ithelp.ithome.com.tw/articles/10277161
  */
 @ControllerAdvice
 public class CustomExceptionHandler {
