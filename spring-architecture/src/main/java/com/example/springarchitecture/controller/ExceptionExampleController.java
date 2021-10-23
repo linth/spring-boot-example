@@ -6,6 +6,13 @@ import com.example.springarchitecture.exception.TooSmallException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Error exception example.
+ * 
+ * References:
+ *  - https://www.tpisoftware.com/tpu/articleDetails/1334
+ *  - https://ithelp.ithome.com.tw/articles/10277161
+ */
 @RestController
 @RequestMapping("/exception")
 public class ExceptionExampleController {

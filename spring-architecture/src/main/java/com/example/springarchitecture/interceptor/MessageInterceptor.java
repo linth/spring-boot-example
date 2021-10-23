@@ -29,6 +29,7 @@ import org.springframework.web.servlet.ModelAndView;
  *  - https://matthung0807.blogspot.com/2019/08/spring-boot-interceptor.html
  *  - https://zh.wikipedia.org/wiki/Java_Servlet
  *  - https://www.baeldung.com/spring-mvc-handlerinterceptor
+ *  - https://ithelp.ithome.com.tw/articles/10278220?sc=hot
  */
 @Component
 public class MessageInterceptor implements HandlerInterceptor {
