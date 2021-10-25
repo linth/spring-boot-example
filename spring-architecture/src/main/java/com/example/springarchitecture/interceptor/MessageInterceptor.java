@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
  *  - generate some information for the request response
  *  - and many other things
  * 
+ * TODO: add authentication example.
  * 
  * The HandlerInterceptor contains three main methods:
  *  - prehandle() – called before the execution of the actual handler

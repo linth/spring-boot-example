@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @Configuration: 用來設定Spring環境配置，例如宣告及註冊bean至Spring容器中
  * 
+ * TODO: software version, i.e., v0.0.1. API version, auth, permission, sonarqube, ..., etc.
+ * 
  * Reference:
  *  - https://matthung0807.blogspot.com/2019/04/spring-configuration_28.html
  */
