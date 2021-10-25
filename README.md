@@ -9,6 +9,7 @@ This is an example for training spring boot myself.
 - [x] spring boot project
 - [ ] spring boot application (multiple applications)
 - [x] spring boot REST API
+- [ ] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
 - [ ] configuration (dev, test, prod)
 - [ ] templates
 - [ ] static
@@ -37,20 +38,27 @@ This is an example for training spring boot myself.
 - [ ] auth and permission 
 - [ ] shell script (several command-lines for doing something.)
 - [ ] CI/CD
-- [ ] spring boot unit testing (Mockito)
+- [ ] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055))
+- [ ] [spring async](https://ithelp.ithome.com.tw/articles/10278638)
+- [ ] [spring boot & Session](https://ithelp.ithome.com.tw/articles/10277283)
+- [ ] [spring boot & Cookie](https://ithelp.ithome.com.tw/articles/10277250)
+- [ ] [spring boot & validation](https://ithelp.ithome.com.tw/articles/10275699)
+- [ ] [spring boot & JPA](https://ithelp.ithome.com.tw/articles/10273243)
 - [ ] spring boot debug tool
-- [ ] spring boot schedule
+- [ ] [spring boot schedule](https://ithelp.ithome.com.tw/articles/10278167)
 - [ ] websocket
 - [ ] webhook
 - [ ] AJAX (axios, ajax)
-- [ ] JWT
+- [ ] [JWT](https://ithelp.ithome.com.tw/articles/10280355)
 - [ ] Makefile
+- [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
+- [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271)
 - [ ] 400/403/404/500 page
 - [ ] HTTP request/response by custom requests.
-- [ ] Azure service - Blob
-- [ ] Azure service - Storage table
-- [ ] Azure service - Cosmos DB
-- [ ] Azure service - IoT Hub
+- [ ] [Azure service - Blob](https://docs.microsoft.com/zh-tw/azure/storage/blobs/storage-quickstart-blobs-java?tabs=powershell)
+- [ ] [Azure service - Storage table](https://docs.microsoft.com/en-us/java/api/overview/azure/data-tables-readme?view=azure-java-stable)
+- [ ] [Azure service - Cosmos DB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/sql/sql-api-java-application)
+- [ ] [Azure service - IoT Hub](https://docs.microsoft.com/zh-tw/azure/iot-hub/iot-hub-java-java-c2d)
 
 # Author
 linth
