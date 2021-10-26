@@ -9,7 +9,7 @@ This is an example for training spring boot myself.
 - [x] spring boot project
 - [ ] spring boot application (multiple applications)
 - [x] spring boot REST API
-- [ ] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
+- [x] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
 - [ ] configuration (dev, test, prod)
 - [ ] templates
 - [ ] static
