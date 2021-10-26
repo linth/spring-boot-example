@@ -49,6 +49,7 @@ This is an example for training spring boot myself.
 - [ ] websocket
 - [ ] webhook
 - [ ] AJAX (axios, ajax)
+- [ ] [message queuing: spring boot + rabbitmq](https://www.tpisoftware.com/tpu/articleDetails/2116)
 - [ ] [JWT](https://ithelp.ithome.com.tw/articles/10280355)
 - [ ] Makefile
 - [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
