@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * 
  * Reference:
  *  - https://matthung0807.blogspot.com/2019/04/spring-configuration_28.html
+ *  - https://ithelp.ithome.com.tw/articles/10277666
  */
 
 @Configuration
@@ -21,4 +22,12 @@ public class config {
 
     @Value("${test.age}")
     String age;
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getAge() {
+        return this.age;
+    }
 }
