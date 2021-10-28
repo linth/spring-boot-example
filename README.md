@@ -11,7 +11,7 @@ This is an example for training spring boot myself.
 - [x] spring boot REST API
 - [x] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
 - [ ] annotation
-    - [ ] [@RequestParam](https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html)
+    - [x] [@RequestParam](https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html)
     - [ ] [@RequestMapping](https://matthung0807.blogspot.com/2021/01/spring-web-requestmapping-optional-pathvariable-api.html)
 - [ ] configuration (dev, test, prod)
 - [ ] templates
