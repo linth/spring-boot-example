@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @RequestParam 取得url參數範例
  * 
- * Reference:
- *  - https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
+ *               Reference: -
+ *               https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
  */
 @RestController
 @RequestMapping("requestParam")
@@ -20,7 +20,7 @@ public class RequestParamExampleController {
 
     @GetMapping("/api")
     public String api(@RequestParam String name, @RequestParam String age) {
-        // ? 請使用url: http://localhost:8080/requestParam?name=%22george%22&age=%2222%22
+        // ? 請使用url: http://localhost:8080/requestParam/api?name="george"&age="22"
         System.out.println("name: " + name);
         System.out.println("age: " + age);
 
