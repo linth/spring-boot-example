@@ -12,9 +12,12 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
  * Test for RequestParamExampleController範例
  * 
  * TODO: 增加 RequestParamExampleController 的 test.
+ * TODO: 是否可以自己建立library框架?
  * 
- * Reference: -
- * https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
+ * Reference: 
+ *  - https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
+ *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-1.html
+ *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-2.html
  */
 @AutoConfigureMockMvc
 @SpringBootTest
