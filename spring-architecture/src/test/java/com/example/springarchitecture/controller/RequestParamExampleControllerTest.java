@@ -18,6 +18,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
  *  - https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
  *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-1.html
  *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-2.html
+ *  - https://ithelp.ithome.com.tw/articles/10281055
  */
 @AutoConfigureMockMvc
 @SpringBootTest
