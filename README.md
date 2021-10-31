@@ -42,7 +42,7 @@ This is an example for training spring boot myself.
 - [ ] auth and permission 
 - [ ] shell script (several command-lines for doing something.)
 - [ ] CI/CD
-- [ ] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055))
+- [x] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055))
 - [ ] [spring async](https://ithelp.ithome.com.tw/articles/10278638)
 - [ ] [spring boot & Session](https://ithelp.ithome.com.tw/articles/10277283)
 - [ ] [spring boot & Cookie](https://ithelp.ithome.com.tw/articles/10277250)
