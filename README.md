@@ -32,6 +32,7 @@ This is an example for training spring boot myself.
 - [x] exception (error exception handling)
 - [ ] spring boot admin
 - [ ] docker and kubernetes
+- [ ] [Lombok](https://morosedog.gitlab.io/springboot-20190322-springboot12/)
 - [ ] Tomcat
 - [ ] logging (@Slf4j, or others)
 - [ ] swagger v3
