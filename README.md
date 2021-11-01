@@ -28,7 +28,7 @@ This is an example for training spring boot myself.
 - [ ] model
 - [ ] filter
 - [x] interceptor
-- [ ] controller
+- [x] controller
 - [x] exception (error exception handling)
 - [ ] spring boot admin
 - [ ] docker and kubernetes
@@ -58,7 +58,9 @@ This is an example for training spring boot myself.
 - [ ] [JWT](https://ithelp.ithome.com.tw/articles/10280355)
 - [ ] Makefile
 - [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
-- [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271)
+- [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271), [refer](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-security-authentication-and-authorization.html)
+- [ ] [spring security & JWT](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-username-password-authentication-and-jwt.html)
+- [ ] [Access token with spring security](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-obtain-user-identity-from-token.html)
 - [ ] 400/403/404/500 page
 - [ ] HTTP request/response by custom requests.
 - [ ] [Azure service - Blob](https://docs.microsoft.com/zh-tw/azure/storage/blobs/storage-quickstart-blobs-java?tabs=powershell)
