@@ -12,7 +12,7 @@ This is an example for training spring boot myself.
 - [x] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
 - [ ] annotation
     - [x] [@RequestParam](https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html)
-    - [ ] [@RequestMapping](https://matthung0807.blogspot.com/2021/01/spring-web-requestmapping-optional-pathvariable-api.html)
+    - [x] [@RequestMapping](https://matthung0807.blogspot.com/2021/01/spring-web-requestmapping-optional-pathvariable-api.html)
     - [ ] [@PathVariable](https://ithelp.ithome.com.tw/articles/10159679)
 - [ ] configuration (dev, test, prod)
 - [ ] templates
