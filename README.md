@@ -58,11 +58,12 @@ This is an example for training spring boot myself.
 - [ ] Makefile
 - [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
 - [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271)
+- [ ] [spring security + JWT](https://iter01.com/528800.html)
 - [ ] 400/403/404/500 page
 - [ ] HTTP request/response by custom requests.
 - [ ] [Azure service - Blob](https://docs.microsoft.com/zh-tw/azure/storage/blobs/storage-quickstart-blobs-java?tabs=powershell)
 - [ ] [Azure service - Storage table](https://docs.microsoft.com/en-us/java/api/overview/azure/data-tables-readme?view=azure-java-stable)
-- [ ] [Azure service - Cosmos DB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/sql/sql-api-java-application)
+- [ ] [Azure service - Cosmos DB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/sql/sql-api-java-application), [Cosmos 用戶端程式庫](https://docs.microsoft.com/zh-tw/azure/developer/java/spring-framework/how-to-guides-spring-data-cosmosdb)
 - [ ] [Azure service - IoT Hub](https://docs.microsoft.com/zh-tw/azure/iot-hub/iot-hub-java-java-c2d)
 
 # Author
