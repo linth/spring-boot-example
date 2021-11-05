@@ -20,16 +20,19 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * Test for RequestParamExampleController範例
  * 
  * TODO: 增加 RequestParamExampleController 的 test.
+ * TODO: 是否可以自己建立library框架?
  * 
- * Reference:
+ * Reference: 
  *  - https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
  *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-1.html
+ *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-2.html
+ *  - https://ithelp.ithome.com.tw/articles/10281055
  */
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
 @SpringBootTest
 public class RequestParamExampleControllerTest {
-    
+
     @Autowired
     private MockMvc mockMvc;
 
@@ -59,4 +62,16 @@ public class RequestParamExampleControllerTest {
             .andExpect(header().exists(HttpHeaders.LOCATION))
             .andExpect(header().string(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE));
     }
+    
+    public void api_ok() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get("http://localhost:8080/requestParam/api?name=george&age=22"))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.content().string("Name: george; Age: 22"));
+    }
+
+    // @Test
+    // public void api_notFound() throws Exception {
+    // mockMvc.perform(MockMvcRequestBuilders.get("http://localhost:8080/requestParam/api"))
+    // .andExpect(MockMvcResultMatchers.status().isBadRequest());
+    // }
 }

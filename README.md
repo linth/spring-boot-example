@@ -6,13 +6,13 @@ This is an example for training spring boot myself.
 
 ---
 # Spring boot project structure
-- [x] spring boot project
+- [x] [spring boot project](https://spring.io/quickstart)
 - [ ] spring boot application (multiple applications)
 - [x] spring boot REST API
 - [x] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
 - [ ] annotation
     - [x] [@RequestParam](https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html)
-    - [ ] [@RequestMapping](https://matthung0807.blogspot.com/2021/01/spring-web-requestmapping-optional-pathvariable-api.html)
+    - [x] [@RequestMapping](https://matthung0807.blogspot.com/2021/01/spring-web-requestmapping-optional-pathvariable-api.html)
     - [ ] [@PathVariable](https://ithelp.ithome.com.tw/articles/10159679)
 - [ ] configuration (dev, test, prod)
 - [ ] templates
@@ -28,10 +28,11 @@ This is an example for training spring boot myself.
 - [ ] model
 - [ ] filter
 - [x] interceptor
-- [ ] controller
+- [x] controller
 - [x] exception (error exception handling)
 - [ ] spring boot admin
 - [ ] docker and kubernetes
+- [ ] [Lombok](https://morosedog.gitlab.io/springboot-20190322-springboot12/)
 - [ ] Tomcat
 - [ ] logging (@Slf4j, or others)
 - [ ] swagger v3
@@ -42,7 +43,7 @@ This is an example for training spring boot myself.
 - [ ] auth and permission 
 - [ ] shell script (several command-lines for doing something.)
 - [ ] CI/CD
-- [ ] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055))
+- [x] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055))
 - [ ] [spring async](https://ithelp.ithome.com.tw/articles/10278638)
 - [ ] [spring boot & Session](https://ithelp.ithome.com.tw/articles/10277283)
 - [ ] [spring boot & Cookie](https://ithelp.ithome.com.tw/articles/10277250)
@@ -59,6 +60,9 @@ This is an example for training spring boot myself.
 - [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
 - [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271)
 - [ ] [spring security + JWT](https://iter01.com/528800.html)
+- [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271), [refer](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-security-authentication-and-authorization.html)
+- [ ] [spring security & JWT](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-username-password-authentication-and-jwt.html)
+- [ ] [Access token with spring security](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-obtain-user-identity-from-token.html)
 - [ ] 400/403/404/500 page
 - [ ] HTTP request/response by custom requests.
 - [ ] [Azure service - Blob](https://docs.microsoft.com/zh-tw/azure/storage/blobs/storage-quickstart-blobs-java?tabs=powershell)
