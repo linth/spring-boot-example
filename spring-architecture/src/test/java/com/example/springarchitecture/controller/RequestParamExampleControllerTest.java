@@ -27,6 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-1.html
  *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-mockmvc-integration-test-2.html
  *  - https://ithelp.ithome.com.tw/articles/10281055
+ *  - https://ithelp.ithome.com.tw/articles/10246525
  */
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
@@ -65,8 +66,8 @@ public class RequestParamExampleControllerTest {
     
     public void api_ok() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("http://localhost:8080/requestParam/api?name=george&age=22"))
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("Name: george; Age: 22"));
+                .andExpect(status().isOk())
+                .andExpect(content().string("Name: george; Age: 22"));
     }
 
     // @Test
