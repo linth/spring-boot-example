@@ -47,7 +47,7 @@ This is an example for training spring boot myself.
 - [ ] [spring async](https://ithelp.ithome.com.tw/articles/10278638)
 - [ ] [spring boot & Session](https://ithelp.ithome.com.tw/articles/10277283)
 - [ ] [spring boot & Cookie](https://ithelp.ithome.com.tw/articles/10277250)
-- [ ] [spring boot & validation](https://ithelp.ithome.com.tw/articles/10275699)
+- [ ] [spring boot & validation](https://ithelp.ithome.com.tw/articles/10275699), [validation](https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-request-body-validation.html)
 - [ ] [spring boot & JPA](https://ithelp.ithome.com.tw/articles/10273243)
 - [ ] spring boot debug tool
 - [ ] [spring boot schedule](https://ithelp.ithome.com.tw/articles/10278167)
