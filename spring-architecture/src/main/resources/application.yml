@@ -1,0 +1,29 @@
+# dev/prod/test + setting file (dynamic variables)
+# multiple modules
+# API, form, vo, dao, ..., etc.
+# each topics for spring boot.
+
+# https://dev.to/mhdzaid/how-to-configure-profiles-in-spring-boot-16jo
+
+spring:
+  profiles:
+    active: prod
+
+  jackson:
+    time-zone: UTC
+      
+software:
+    name: spring-architecture
+    version: 0.0.1
+test:
+    name: george
+    age: 30
+
+
+# # 配置執行緒池設定檔
+# # https://ithelp.ithome.com.tw/articles/10278638
+# spring.task.pool.corePoolSize=5
+# spring.task.pool.maxPoolSize=50
+# spring.task.pool.keepAliveSeconds=60
+# spring.task.pool.queueCapacity=10000
+# spring.task.pool.threadNamePrefix=Wesiting-Thread-
