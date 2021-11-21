@@ -4,10 +4,16 @@
 # each topics for spring boot.
 
 # https://dev.to/mhdzaid/how-to-configure-profiles-in-spring-boot-16jo
+# https://www.gushiciku.cn/pl/2Wno/zh-tw
+
+
+# mvn package -P {dev} or ./mvnw package -P {dev}
+# mvn package -P {prod} or ./mvnw package -P {prod}
+# mvn package -P {test} or ./mvnw package -P {test}
 
 spring:
   profiles:
-    active: prod
+    active: dev
 
   jackson:
     time-zone: UTC
