@@ -5,6 +5,7 @@
 
 # https://dev.to/mhdzaid/how-to-configure-profiles-in-spring-boot-16jo
 # https://www.gushiciku.cn/pl/2Wno/zh-tw
+# https://iter01.com/554682.html
 
 
 # mvn package -P {dev} or ./mvnw package -P {dev}
