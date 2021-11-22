@@ -68,4 +68,37 @@
 		</plugins>
 	</build>
 
+	<!-- 多環境建置 dev, prod, test, local -->
+	<profiles>
+        <profile>
+            <!-- 本地開發環境 -->
+            <id>dev</id>
+            <properties>
+                <profileActive>dev</profileActive>
+            </properties>
+            <!-- 預設開啟這個配置 -->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <profileActive>prod</profileActive>
+            </properties>
+        </profile>
+		<profile>
+            <id>test</id>
+            <properties>
+                <profileActive>test</profileActive>
+            </properties>
+        </profile>
+		<profile>
+            <id>local</id>
+            <properties>
+                <profileActive>local</profileActive>
+            </properties>
+        </profile>
+    </profiles>
+
 </project>

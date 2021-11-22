@@ -10,6 +10,7 @@ This is an example for training spring boot myself.
 - [ ] spring boot application (multiple applications)
 - [x] spring boot REST API
 - [x] [application.properties setting](https://ithelp.ithome.com.tw/articles/10277666)
+- [x] [application.yml setting](https://medium.com/learning-from-jhipster/8-spring-boot%E7%9A%84properties%E8%88%87profile-8cab3cd06856)
 - [ ] annotation
     - [x] [@RequestParam](https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html)
     - [x] [@RequestMapping](https://matthung0807.blogspot.com/2021/01/spring-web-requestmapping-optional-pathvariable-api.html)
