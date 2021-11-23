@@ -1,0 +1,43 @@
+# dev/prod/test + setting file (dynamic variables)
+# multiple modules
+# API, form, vo, dao, ..., etc.
+# each topics for spring boot.
+
+# https://dev.to/mhdzaid/how-to-configure-profiles-in-spring-boot-16jo
+# https://www.gushiciku.cn/pl/2Wno/zh-tw
+# https://iter01.com/554682.html
+# https://medium.com/learning-from-jhipster/8-spring-boot%E7%9A%84properties%E8%88%87profile-8cab3cd06856
+# (重要) https://stackoverflow.com/questions/60758633/unable-to-set-command-line-profile-in-spring-boot-2-2
+
+
+# mvn package -P {dev} or ./mvnw package -P {dev}
+# mvn package -P {prod} or ./mvnw package -P {prod}
+# mvn package -P {test} or ./mvnw package -P {test}
+
+# 指令: .\mvnw spring-boot:run -D"spring-boot.run.profiles"=dev
+# 指令: .\mvnw spring-boot:run -D"spring-boot.run.profiles"=prod
+# 指令: .\mvnw spring-boot:run -D"spring-boot.run.profiles"=test
+# 指令: .\mvnw spring-boot:run -D"spring-boot.run.profiles"=local
+
+spring:
+  profiles:
+    active: @profileActive@
+
+  jackson:
+    time-zone: UTC
+      
+software:
+    name: spring-architecture
+    version: 0.0.1
+test:
+    name: george
+    age: 30
+
+
+# # 配置執行緒池設定檔
+# # https://ithelp.ithome.com.tw/articles/10278638
+# spring.task.pool.corePoolSize=5
+# spring.task.pool.maxPoolSize=50
+# spring.task.pool.keepAliveSeconds=60
+# spring.task.pool.queueCapacity=10000
+# spring.task.pool.threadNamePrefix=Wesiting-Thread-
