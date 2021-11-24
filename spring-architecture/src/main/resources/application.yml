@@ -8,6 +8,7 @@
 # https://iter01.com/554682.html
 # https://medium.com/learning-from-jhipster/8-spring-boot%E7%9A%84properties%E8%88%87profile-8cab3cd06856
 # (重要) https://stackoverflow.com/questions/60758633/unable-to-set-command-line-profile-in-spring-boot-2-2
+# (重要) https://blog.miniasp.com/post/2021/08/12/Read-envFile-for-Spring-Boot-app-in-Visual-Studio-Code
 
 
 # mvn package -P {dev} or ./mvnw package -P {dev}
