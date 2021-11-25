@@ -58,6 +58,8 @@ This is an example for training spring boot myself.
 - [ ] AJAX (axios, ajax)
 - [ ] [message queuing: spring boot + rabbitmq](https://www.tpisoftware.com/tpu/articleDetails/2116)
 - [ ] [JWT](https://ithelp.ithome.com.tw/articles/10280355)
+- [ ] [Prometheus](http://samchu.logdown.com/posts/7338062-springboot2-new-features-integrate-with-prometheus), [others](http://samchu.logdown.com/posts/7805002-springboot-how-to-join-prometheus-and-grafana-monitoring)
+- [ ] [Grahana](http://samchu.logdown.com/posts/7805002-springboot-how-to-join-prometheus-and-grafana-monitoring)
 - [ ] Makefile
 - [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
 - [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271)
