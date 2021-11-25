@@ -42,3 +42,24 @@ test:
 # spring.task.pool.keepAliveSeconds=60
 # spring.task.pool.queueCapacity=10000
 # spring.task.pool.threadNamePrefix=Wesiting-Thread-
+
+
+# http://samchu.logdown.com/posts/290211-spring-boot-yaml-uses
+PhoneclassArray:
+  - apple
+  - oppo
+  - google
+  - HTC
+  - samsung
+  - HUAWEI
+
+# 一組有結構資料
+school:
+  student:
+    - name: George
+      age: 30
+    - name: Peter
+    - name: HaHa
+    - name: JJ
+    - name: QQ
+      age: 6
