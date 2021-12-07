@@ -17,9 +17,13 @@ This is an example for training spring boot myself.
     - [ ] [@PathVariable](https://ithelp.ithome.com.tw/articles/10159679)
 - [ ] configuration (dev, test, prod)
 - [ ] templates
+- [ ] [Thymeleaf教學](https://tw511.com/10/113/3390.html)
 - [ ] static
 - [ ] bootstrap
 - [ ] multiple database for dev, test, prod (MySQL, MSSQL, PostgreSQL, NoSQL)
+- [ ] [PostgreSQL教學](https://tw511.com/18/145/4235.html)
+- [ ] [MongoDB教學](https://tw511.com/18/141/4072.html)
+- [ ] [Postman教學](https://ithelp.ithome.com.tw/articles/10227737)
 - [ ] environment for dev, test, prod (virtualenv, pipenv)
 - [ ] service
 - [ ] dto/dao
@@ -32,9 +36,11 @@ This is an example for training spring boot myself.
 - [x] controller
 - [x] exception (error exception handling)
 - [ ] spring boot admin
-- [ ] docker and kubernetes
+- [ ] docker and kubernetes, [docker教學](https://tw511.com/5/55/1709.html)
 - [ ] [Lombok](https://morosedog.gitlab.io/springboot-20190322-springboot12/)
 - [ ] Tomcat
+- [ ] [Redis教學](https://tw511.com/18/146/4288.html)
+- [ ] [Json教學](https://tw511.com/6/69/2180.html)
 - [ ] logging (@Slf4j, or others)
 - [ ] swagger v3
 - [ ] WSGI and ASGI
@@ -42,9 +48,9 @@ This is an example for training spring boot myself.
 - [ ] spring boot rest framework (CRUD)
 - [ ] User authentication
 - [ ] auth and permission 
-- [ ] shell script (several command-lines for doing something.)
+- [ ] shell script (several command-lines for doing something.), [Bash Shell教學](https://tw511.com/24/248/9101.html)
 - [ ] CI/CD
-- [x] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055))
+- [x] spring boot unit testing (Mockito, [MockMvc](https://ithelp.ithome.com.tw/articles/10281055)), [Spring Boot單元測試教學](https://tw511.com/a/01/31070.html)
 - [ ] [spring async](https://ithelp.ithome.com.tw/articles/10278638)
 - [ ] [spring boot & Session](https://ithelp.ithome.com.tw/articles/10277283)
 - [ ] [spring boot & Cookie](https://ithelp.ithome.com.tw/articles/10277250)
@@ -56,16 +62,19 @@ This is an example for training spring boot myself.
 - [ ] webhook
 - [ ] AJAX (axios, ajax)
 - [ ] [message queuing: spring boot + rabbitmq](https://www.tpisoftware.com/tpu/articleDetails/2116)
+- [ ] [Nginx](https://tw511.com/12/121/3603.html), [Nginx 官網](https://www.nginx.com/)
 - [ ] [JWT](https://ithelp.ithome.com.tw/articles/10280355)
 - [ ] Makefile
 - [ ] [spring actuator](https://ithelp.ithome.com.tw/articles/10281388)
 - [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271)
 - [ ] [spring security + JWT](https://iter01.com/528800.html)
 - [ ] [spring security](https://ithelp.ithome.com.tw/articles/10279271), [refer](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-security-authentication-and-authorization.html)
-- [ ] [spring security & JWT](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-username-password-authentication-and-jwt.html)
+- [ ] [spring security & JWT](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-username-password-authentication-and-jwt.html), [Spring Security入門程式範例](https://tw511.com/20/237/8824.html)
 - [ ] [Access token with spring security](https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-obtain-user-identity-from-token.html)
 - [ ] 400/403/404/500 page
 - [ ] HTTP request/response by custom requests.
+- [ ] [A/B Testing教學](https://tw511.com/6/69/2180.html)
+- [ ] [Selenium教學](https://tw511.com/8/97/2977.html)
 - [ ] [Azure service - Blob](https://docs.microsoft.com/zh-tw/azure/storage/blobs/storage-quickstart-blobs-java?tabs=powershell)
 - [ ] [Azure service - Storage table](https://docs.microsoft.com/en-us/java/api/overview/azure/data-tables-readme?view=azure-java-stable)
 - [ ] [Azure service - Cosmos DB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/sql/sql-api-java-application), [Cosmos 用戶端程式庫](https://docs.microsoft.com/zh-tw/azure/developer/java/spring-framework/how-to-guides-spring-data-cosmosdb)
