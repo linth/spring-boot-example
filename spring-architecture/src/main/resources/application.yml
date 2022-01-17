@@ -33,7 +33,7 @@ spring:
       authentication-database: admin
       host: localhost
       port: 27017
-      database: spring-sample
+      database: example
       username: admin
       password: admin123456
       
