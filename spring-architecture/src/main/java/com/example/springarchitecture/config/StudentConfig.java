@@ -2,7 +2,7 @@ package com.example.springarchitecture.config;
 
 import java.util.List;
 
-import com.example.springarchitecture.entity.Student;
+import com.example.springarchitecture.Entity.Student;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
