@@ -22,7 +22,7 @@ This is an example for training spring boot myself.
 - [ ] bootstrap
 - [ ] multiple database for dev, test, prod (MySQL, MSSQL, PostgreSQL, NoSQL)
 - [ ] [PostgreSQL教學](https://tw511.com/18/145/4235.html)
-- [ ] [MongoDB教學](https://tw511.com/18/141/4072.html)
+- [x] [MongoDB教學](https://tw511.com/18/141/4072.html)
 - [ ] [Postman教學](https://ithelp.ithome.com.tw/articles/10227737)
 - [ ] environment for dev, test, prod (virtualenv, pipenv)
 - [ ] service
