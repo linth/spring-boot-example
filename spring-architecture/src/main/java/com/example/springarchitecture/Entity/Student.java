@@ -29,7 +29,7 @@ public class Student extends EntityBase {
     @MongoId
     private String id;
 
-    private int age;
+    private Integer age;
     private Date birDate;
     private String schoolName;
 }
