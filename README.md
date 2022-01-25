@@ -46,6 +46,7 @@ This is an example for training spring boot myself.
 - [ ] WSGI and ASGI
 - [ ] Cross-Origin Resource Sharing (CORS)
 - [ ] spring boot rest framework (CRUD)
+- [x] [Call external Backend API by RestTemplate](https://howtodoinjava.com/spring-boot2/resttemplate/spring-restful-client-resttemplate-example/)
 - [ ] User authentication
 - [ ] auth and permission 
 - [ ] shell script (several command-lines for doing something.), [Bash Shell教學](https://tw511.com/24/248/9101.html)
