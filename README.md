@@ -83,6 +83,7 @@ This is an example for training spring boot myself.
 - [ ] [Azure service - Storage table](https://docs.microsoft.com/en-us/java/api/overview/azure/data-tables-readme?view=azure-java-stable)
 - [ ] [Azure service - Cosmos DB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/sql/sql-api-java-application), [Cosmos 用戶端程式庫](https://docs.microsoft.com/zh-tw/azure/developer/java/spring-framework/how-to-guides-spring-data-cosmosdb)
 - [ ] [Azure service - IoT Hub](https://docs.microsoft.com/zh-tw/azure/iot-hub/iot-hub-java-java-c2d)
+- [ ] [Scopes之Singleton Scope (單例) 和Prototype Scope (多例)](https://www.gushiciku.cn/pl/2UoZ/zh-tw)
 
 # Author
 linth
