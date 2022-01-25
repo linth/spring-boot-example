@@ -2,8 +2,9 @@ package com.example.springarchitecture.Entity;
 
 import java.sql.Date;
 
+import com.example.springarchitecture.Entity.base.EntityBase;
+
 import org.springframework.data.annotation.TypeAlias;
-import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.MongoId;
 
@@ -24,12 +25,11 @@ import lombok.Data;
 @TypeAlias("student")
 @Document(collection = "student")
 @Data
-public class Student {
+public class Student extends EntityBase {
     @MongoId
     private String id;
-    @Indexed
-    private String name;
-    private int age;
 
+    private int age;
     private Date birDate;
+    private String schoolName;
 }
