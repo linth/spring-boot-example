@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
  *  - https://howtodoinjava.com/spring-boot2/resttemplate/spring-restful-client-resttemplate-example/
  */
 @RestController
-@RequestMapping("callAnotherBackendApi")
+@RequestMapping("callExteralApi")
 public class CallAnotherBackendApi {
     
     @GetMapping("")
