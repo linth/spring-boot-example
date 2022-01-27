@@ -31,8 +31,8 @@ public class PhoneClassArrayController {
         return phoneConfig.getPhoneClassArray();
     }
 
-    @RequestMapping("studentList")
-    public List<Student> showStudent() {
-        return studentConfig.getStudent();
-    }
+    // @RequestMapping("studentList")
+    // public List<Student> showStudent() {
+    //     return studentConfig.getStudent();
+    // }
 }

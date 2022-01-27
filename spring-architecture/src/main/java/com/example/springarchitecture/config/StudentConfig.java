@@ -19,5 +19,5 @@ import lombok.Data;
 @Component
 @ConfigurationProperties(prefix = "school")
 public class StudentConfig {
-    private List<Student> student;
+    // private List<Student> student;
 }
