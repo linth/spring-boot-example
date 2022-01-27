@@ -11,15 +11,16 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @RequestParam 取得url參數範例
  * 
- *               Reference: -
- *               https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
+ * Reference: 
+ *  - https://matthung0807.blogspot.com/2021/04/spring-mvc-requestparam-url.html
+ * 
  */
 @RestController
 @RequestMapping("requestParam")
 public class RequestParamExampleController {
 
     @GetMapping("/api")
-    public String api(@RequestParam String name, @RequestParam String age) {
+    public String api(@RequestParam(required = false) String name, @RequestParam(required = false) String age) {
         // ? 請使用url: http://localhost:8080/requestParam/api?name="george"&age="22"
         System.out.println("name: " + name);
         System.out.println("age: " + age);
@@ -34,8 +35,7 @@ public class RequestParamExampleController {
         System.out.println("name: " + args.get("name"));
         System.out.println("age: " + args.get("age"));
 
-        String result = String.format("name=%s, age=%s", args.get("name"), args.get("age"));
-        return result;
+        return String.format("name=%s, age=%s", args.get("name"), args.get("age"));
     }
 
     @GetMapping("/api3")
@@ -44,7 +44,6 @@ public class RequestParamExampleController {
         // ? 請使用url: http://localhost:8080/requestParam/api3?name=john,mary,bill
         System.out.println("name: " + name);
 
-        String result = String.format("name=%s", String.join(",", name));
-        return result;
+        return String.format("name=%s", String.join(",", name));
     }
 }

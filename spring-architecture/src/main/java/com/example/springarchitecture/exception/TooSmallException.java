@@ -11,6 +11,7 @@ public class TooSmallException extends RuntimeException {
         
     }
 
+    @Override
     public String getMessage() {
         return msg;
     }
