@@ -2,7 +2,7 @@ package com.example.springarchitecture.controller;
 
 import com.example.springarchitecture.config.PhoneConfig;
 import com.example.springarchitecture.config.StudentConfig;
-import com.example.springarchitecture.entity.Student;
+import com.example.springarchitecture.Entity.Student;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

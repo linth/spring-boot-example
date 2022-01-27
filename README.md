@@ -22,7 +22,7 @@ This is an example for training spring boot myself.
 - [ ] bootstrap
 - [ ] multiple database for dev, test, prod (MySQL, MSSQL, PostgreSQL, NoSQL)
 - [ ] [PostgreSQL教學](https://tw511.com/18/145/4235.html)
-- [ ] [MongoDB教學](https://tw511.com/18/141/4072.html)
+- [x] [MongoDB教學](https://tw511.com/18/141/4072.html)
 - [ ] [Postman教學](https://ithelp.ithome.com.tw/articles/10227737)
 - [ ] environment for dev, test, prod (virtualenv, pipenv)
 - [ ] service
@@ -46,6 +46,7 @@ This is an example for training spring boot myself.
 - [ ] WSGI and ASGI
 - [ ] Cross-Origin Resource Sharing (CORS)
 - [ ] spring boot rest framework (CRUD)
+- [x] [Call external Backend API by RestTemplate](https://howtodoinjava.com/spring-boot2/resttemplate/spring-restful-client-resttemplate-example/)
 - [ ] User authentication
 - [ ] auth and permission 
 - [ ] shell script (several command-lines for doing something.), [Bash Shell教學](https://tw511.com/24/248/9101.html)
@@ -82,6 +83,7 @@ This is an example for training spring boot myself.
 - [ ] [Azure service - Storage table](https://docs.microsoft.com/en-us/java/api/overview/azure/data-tables-readme?view=azure-java-stable)
 - [ ] [Azure service - Cosmos DB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/sql/sql-api-java-application), [Cosmos 用戶端程式庫](https://docs.microsoft.com/zh-tw/azure/developer/java/spring-framework/how-to-guides-spring-data-cosmosdb)
 - [ ] [Azure service - IoT Hub](https://docs.microsoft.com/zh-tw/azure/iot-hub/iot-hub-java-java-c2d)
+- [ ] [Scopes之Singleton Scope (單例) 和Prototype Scope (多例)](https://www.gushiciku.cn/pl/2UoZ/zh-tw)
 
 # Author
 linth

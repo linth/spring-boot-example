@@ -26,6 +26,16 @@ spring:
 
   jackson:
     time-zone: UTC
+
+  # mongodb
+  data:
+    mongodb:
+      authentication-database: admin
+      host: localhost
+      port: 27017
+      database: example
+      username: admin
+      password: admin123456
       
 software:
     name: spring-architecture
