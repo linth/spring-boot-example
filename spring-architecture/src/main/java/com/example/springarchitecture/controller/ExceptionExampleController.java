@@ -1,10 +1,15 @@
 package com.example.springarchitecture.controller;
 
 import com.example.springarchitecture.exception.CustomException;
+import com.example.springarchitecture.exception.EqualToFive;
+import com.example.springarchitecture.exception.LargerThanTen;
 import com.example.springarchitecture.exception.TooSmallException;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import javassist.NotFoundException;
 
 /**
  * Error exception example.
@@ -16,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/exception")
 public class ExceptionExampleController {
+    private 
     
     @RequestMapping("/custom")
     public void getCustomException() {
@@ -30,13 +36,17 @@ public class ExceptionExampleController {
     }
 
     @RequestMapping("/tooSmall")
-    public String tooSmallException() {
-        int num = 5;
+    public String tooSmallException(@RequestParam Integer num) {
+        // * get a number then return exception: larger, equal, less.
+        // example: http://localhost:8081/exception/tooSmall?num=5
 
         if (num > 10) {
-            return "good! the number is larger than 10.";
+            // return "good! the number is larger than 10.";
+            throw new LargerThanTen("larger than 10.");
+        } else if (num == 5) {
+            throw new EqualToFive("equals to 5.");
         } else {
-            throw new TooSmallException("the number is less than 10.");
+            throw new TooSmallException("less than 10.");
         }
     }
 

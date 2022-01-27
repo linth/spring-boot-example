@@ -1,5 +1,6 @@
 package com.example.springarchitecture.exception;
 
+import org.springframework.data.crossstore.ChangeSetPersister.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -39,4 +40,28 @@ public class CustomExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
             .body(message);
     }
+
+    @ExceptionHandler(EqualToFive.class)
+    public Object notFoundHandler(EqualToFive et) {
+        String msg = et.getMessage();
+
+        String message = "get error: EqualToFive: " + msg;
+        return ResponseEntity.status(HttpStatus.NOT_FOUND)
+            .body(message);
+    }
+
+    @ExceptionHandler(LargerThanTen.class)
+    public Object largerThanTenHandler(LargerThanTen ltt) {
+        String msg = ltt.getMessage();
+
+        String message = "[Error] LargerThanTen: " + msg;
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+        .body(message);
+    }
+
+    // TODO: 200, 201, 400, 403, 404, 500, ..., etc.
+    // @ExceptionHandler(Exception.class)
+    // public Object notFound(Exception e) {
+    //     String msg = e.getMessage();
+    // }
 }
