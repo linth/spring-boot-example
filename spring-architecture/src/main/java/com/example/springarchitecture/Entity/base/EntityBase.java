@@ -1,4 +1,4 @@
-package com.example.springarchitecture.Entity.base;
+package com.example.springarchitecture.entity.base;
 
 import java.time.OffsetDateTime;
 

@@ -2,7 +2,7 @@ package com.example.springarchitecture.controller;
 
 import java.util.List;
 
-import com.example.springarchitecture.Entity.Student;
+import com.example.springarchitecture.entity.Student;
 import com.example.springarchitecture.repository.StudentRepository;
 import com.example.springarchitecture.service.StudentService;
 

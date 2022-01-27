@@ -1,6 +1,6 @@
 package com.example.springarchitecture.service;
 
-import com.example.springarchitecture.Entity.Student;
+import com.example.springarchitecture.entity.Student;
 import com.example.springarchitecture.repository.StudentRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

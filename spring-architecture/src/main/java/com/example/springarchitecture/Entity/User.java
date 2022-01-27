@@ -1,6 +1,4 @@
-package com.example.springarchitecture.Entity;
-
-import com.example.springarchitecture.Entity.base.EntityBase;
+package com.example.springarchitecture.entity;
 
 import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,7 +10,7 @@ import lombok.Data;
 @TypeAlias("user")
 @Document(collection = "user")
 @Data
-public class User extends EntityBase {
+public class User {
     @MongoId
     private String id;
 }

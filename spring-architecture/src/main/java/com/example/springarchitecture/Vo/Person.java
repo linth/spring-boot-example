@@ -1,7 +1,7 @@
 package com.example.springarchitecture.Vo;
 
-import com.example.springarchitecture.Entity.Student;
-import com.example.springarchitecture.Entity.Teacher;
+import com.example.springarchitecture.entity.Student;
+import com.example.springarchitecture.entity.Teacher;
 
 import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
