@@ -5,6 +5,12 @@ import org.springframework.context.annotation.Configuration;
 
 import lombok.Data;
 
+/**
+ * 
+ * Reference:
+ *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-application-properties-configuration.html
+ *  - https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-construct-bean-programmatically.html
+ */
 @Configuration
 // @Data
 public class MongoDBConfig {
