@@ -24,13 +24,15 @@ public class ExceptionExampleController {
     private 
     
     @RequestMapping("/custom")
-    public void getCustomException() {
+    void getCustomException() {
+        // ! TODO: 請確認為何這 controller 使用 public 會有 error 問題
         // custom error exception.
         throw new CustomException("hi, this is a custom exception.");
     }
 
     @RequestMapping("/null")
-    public void getNullPointerException() {
+    void getNullPointerException() {
+        // ! TODO: 請確認為何這 controller 使用 public 會有 error 問題
         // null pointer exception.
         throw new NullPointerException();
     }
