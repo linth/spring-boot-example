@@ -34,41 +34,41 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 public class RequestParamExampleControllerTest {
 
-    @Autowired
-    private MockMvc mockMvc;
+    // @Autowired
+    // private MockMvc mockMvc;
 
-    @Test
-    public void testCreateProduct() throws Exception {
-        HttpHeaders headers = new HttpHeaders();
-        headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE);
+    // @Test
+    // public void testCreateProduct() throws Exception {
+    //     HttpHeaders headers = new HttpHeaders();
+    //     headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE);
 
-        JSONObject request = new JSONObject()
-            .put("name", "Harry Potter")
-            .put("price", 450);
+    //     JSONObject request = new JSONObject()
+    //         .put("name", "Harry Potter")
+    //         .put("price", 450);
 
-        // post 方法代表發送 POST 請求，參數需傳入 API 路徑。
-        // headers 方法可附加請求標頭。
-        // content 方法可加入請求主體，此處傳入 JSON 字串作為參數。
-        RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/products")
-            .headers(headers)
-            .content(request.toString());
+    //     // post 方法代表發送 POST 請求，參數需傳入 API 路徑。
+    //     // headers 方法可附加請求標頭。
+    //     // content 方法可加入請求主體，此處傳入 JSON 字串作為參數。
+    //     RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/products")
+    //         .headers(headers)
+    //         .content(request.toString());
 
-        // 發出請求與驗證
-        mockMvc.perform(requestBuilder)
-            .andDo(print())
-            .andExpect(status().isCreated())
-            .andExpect(jsonPath("$.id").hasJsonPath())
-            .andExpect(jsonPath("$.name").value(request.getString("name")))
-            .andExpect(jsonPath("$.price").value(request.getInt("price")))
-            .andExpect(header().exists(HttpHeaders.LOCATION))
-            .andExpect(header().string(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE));
-    }
+    //     // 發出請求與驗證
+    //     mockMvc.perform(requestBuilder)
+    //         .andDo(print())
+    //         .andExpect(status().isCreated())
+    //         .andExpect(jsonPath("$.id").hasJsonPath())
+    //         .andExpect(jsonPath("$.name").value(request.getString("name")))
+    //         .andExpect(jsonPath("$.price").value(request.getInt("price")))
+    //         .andExpect(header().exists(HttpHeaders.LOCATION))
+    //         .andExpect(header().string(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE));
+    // }
     
-    public void api_ok() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("http://localhost:8080/requestParam/api?name=george&age=22"))
-                .andExpect(status().isOk())
-                .andExpect(content().string("Name: george; Age: 22"));
-    }
+    // public void api_ok() throws Exception {
+    //     mockMvc.perform(MockMvcRequestBuilders.get("http://localhost:8080/requestParam/api?name=george&age=22"))
+    //             .andExpect(status().isOk())
+    //             .andExpect(content().string("Name: george; Age: 22"));
+    // }
 
     // @Test
     // public void api_notFound() throws Exception {
