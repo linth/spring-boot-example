@@ -17,9 +17,9 @@ public class StudentService {
     private StudentRepository repository;
 
     public void createStudentByRepository(Student student) {
-        log.info("call createStudentByRepository().");
+        // log.info("call createStudentByRepository().");
         repository.save(student);
-        log.info("finish createStudentByRepository().");
+        // log.info("finish createStudentByRepository().");
     }
 
     // 使用 MongoTemplate 來存取資料
@@ -27,8 +27,8 @@ public class StudentService {
     private MongoTemplate mongoTemplate;
 
     public void createStudentByMongoTemplate(Student student) {
-        log.info("call createStudentByMongoTemplate().");
+        // log.info("call createStudentByMongoTemplate().");
         mongoTemplate.save(student);
-        log.info("finish createStudentByMongoTemplate().");
+        // log.info("finish createStudentByMongoTemplate().");
     }
 }
