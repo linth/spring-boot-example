@@ -14,27 +14,27 @@ public class MongoDBService {
     private MongoDBConfig config;
     
     public String getHost() {
-        log.info("into getHost(). host information: " + config.getHost());
-        return config.getHost();        
+        // log.info("into getHost(). host information: " + config.getHost());
+        return config.getHost();
     }
 
     public String getPort() {
-        log.info("into getHost(). port information: " + config.getPort());
+        // log.info("into getHost(). port information: " + config.getPort());
         return config.getPort();        
     }
 
     public String getDatabase() {
-        log.info("into getHost(). database information: " + config.getDatabse());
+        // log.info("into getHost(). database information: " + config.getDatabse());
         return config.getDatabse();        
     }
 
     public String getUsername() {
-        log.info("into getHost(). username information: " + config.getUserName());
+        // log.info("into getHost(). username information: " + config.getUserName());
         return config.getUserName();        
     }
 
     public String getPassword() {
-        log.info("into getHost(). password information: " + config.getPassWord());
+        // log.info("into getHost(). password information: " + config.getPassWord());
         return config.getPassWord();        
     }
 }
