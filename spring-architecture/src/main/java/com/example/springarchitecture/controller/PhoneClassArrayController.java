@@ -26,10 +26,10 @@ public class PhoneClassArrayController {
     @Autowired
     private StudentConfig studentConfig;
 
-    @RequestMapping("phoneList")
-    public List<String> show() {
-        return phoneConfig.getPhoneClassArray();
-    }
+    // @RequestMapping("phoneList")
+    // public List<String> show() {
+    //     return phoneConfig.getPhoneClassArray();
+    // }
 
     // @RequestMapping("studentList")
     // public List<Student> showStudent() {
