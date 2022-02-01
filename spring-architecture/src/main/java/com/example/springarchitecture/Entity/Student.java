@@ -2,6 +2,8 @@ package com.example.springarchitecture.entity;
 
 import java.sql.Date;
 
+import com.example.springarchitecture.entity.base.deviceType;
+
 import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.MongoId;
@@ -28,6 +30,8 @@ public class Student {
     private String id;
 
     private Integer age;
-    private Date birDate;
+    // private Date birDate;
     private String schoolName;
+
+    private deviceType deviceType;
 }
