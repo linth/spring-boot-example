@@ -60,7 +60,7 @@ This is an example for training spring boot myself.
 - [ ] spring boot debug tool
 - [ ] [spring boot schedule](https://ithelp.ithome.com.tw/articles/10278167)
 - [ ] [Quartz + spring boot](https://dzone.com/articles/adding-quartz-to-spring-boot)
-- [ ] websocket
+- [x] websocket
 - [ ] webhook
 - [ ] AJAX (axios, ajax)
 - [ ] [message queuing: spring boot + rabbitmq](https://www.tpisoftware.com/tpu/articleDetails/2116)
