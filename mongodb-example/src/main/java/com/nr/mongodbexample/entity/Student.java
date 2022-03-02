@@ -10,10 +10,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.MongoId;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @TypeAlias("student")
 @Document(collection = "student")
 @Data
+@Getter
+@Setter
 public class Student {
     @MongoId
     private String id;
