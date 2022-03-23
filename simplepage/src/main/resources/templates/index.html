@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+    </head>
+
+    <body>
+        <!-- 訪問 http://localhost:8080/ 則會顯示下方資訊 -->
+        hello 第一個Thymeleaf程式
+
+        <!-- 訪問 http://localhost:8080/index 則會顯示 -->
+        <div th:text="${name}">name</div>
+        <div th:text="${age}">age</div>
+    </body>
+</html>
