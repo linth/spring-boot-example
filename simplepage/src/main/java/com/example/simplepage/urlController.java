@@ -16,6 +16,7 @@ public class urlController {
     @GetMapping("index")
     public String getindex(Model model) {
 
+        // ! 丟資料到前端網頁需要使用 model 方式。
         model.addAttribute("name", "george");
         model.addAttribute("age", 30);
 
