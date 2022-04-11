@@ -13,36 +13,74 @@ import org.springframework.stereotype.Component;
 
 import com.example.websocket_server.util.WebSocketUtil;
 
+/**
+ * Websocket Server Example.
+ * 
+ * Reference:
+ *  - https://morosedog.gitlab.io/springboot-20190416-springboot28/
+ */
 @Component
 @ServerEndpoint(value = "/WebSocketServer/{user}")
 public class WebSocketController {
 
+    // TODO: WebSocketServer should be a chatroom name.
+
+    /**
+     * 建立websocket連線
+     * 
+     * @param user user name.
+     * @param session session information.
+     */
     @OnOpen
     public void onOpen(@PathParam(value = "user") String user, Session session) {
-        String message = "有新成員[" + user + "]加入聊天室!";
+        String message = "New Member: [" + user + "] join the chatroom!";
         System.out.println(message);
+
+        // add new session and send message to all members.
         WebSocketUtil.addSession(user, session);
         WebSocketUtil.sendMessageForAll(message);
     }
 
+    /**
+     * 關閉websocket連線
+     * 
+     * @param user user name.
+     * @param session session information.
+     */
     @OnClose
     public void onClose(@PathParam(value = "user") String user, Session session) {
-        String message = "成員[" + user + "]退出聊天室!";
+        String message = "Member: [" + user + "] quit the chatroom!";
         System.out.println(message);
+
+        // delete the session and send message to all members.
         WebSocketUtil.remoteSession(user);
         WebSocketUtil.sendMessageForAll(message);
     }
 
+    /**
+     * 傳送資訊
+     * 
+     * @param user user name.
+     * @param message message information.
+     */
     @OnMessage
     public void OnMessage(@PathParam(value = "user") String user, String message) {
-        String info = "成員[" + user + "]：" + message;
+        String info = "Member: [" + user + "]：" + message;
         System.out.println(info);
+
+        // send message to all members.
         WebSocketUtil.sendMessageForAll(message);
     }
 
+    /**
+     * 錯誤資訊
+     * 
+     * @param session session information.
+     * @param throwable
+     */
     @OnError
     public void onError(Session session, Throwable throwable) {
-        System.out.println("錯誤:" + throwable);
+        System.out.println("Error:" + throwable);
         try {
             session.close();
         }
