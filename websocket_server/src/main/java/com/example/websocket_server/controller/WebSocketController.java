@@ -18,12 +18,14 @@ import com.example.websocket_server.util.WebSocketUtil;
  * 
  * Reference:
  *  - https://morosedog.gitlab.io/springboot-20190416-springboot28/
+ *  - https://www.yixuebiancheng.com/article/91076.html
  */
 @Component
 @ServerEndpoint(value = "/WebSocketServer/{user}")
 public class WebSocketController {
 
     // TODO: WebSocketServer should be a chatroom name.
+    // TODO: add numeber of user online.
 
     /**
      * 建立websocket連線
