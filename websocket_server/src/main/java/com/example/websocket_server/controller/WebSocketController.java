@@ -25,7 +25,8 @@ import com.example.websocket_server.util.WebSocketUtil;
 public class WebSocketController {
 
     // TODO: WebSocketServer should be a chatroom name.
-    // TODO: add numeber of user online.
+
+    private static int onlineCount = 0;
 
     /**
      * 建立websocket連線
@@ -41,6 +42,10 @@ public class WebSocketController {
         // add new session and send message to all members.
         WebSocketUtil.addSession(user, session);
         WebSocketUtil.sendMessageForAll(message);
+
+        // add user count.
+        addOnlineCount();
+        System.out.println("online count: " + onlineCount);
     }
 
     /**
@@ -57,6 +62,10 @@ public class WebSocketController {
         // delete the session and send message to all members.
         WebSocketUtil.remoteSession(user);
         WebSocketUtil.sendMessageForAll(message);
+
+        // user left
+        subOnlineCount();
+        System.out.println("online count: " + onlineCount);
     }
 
     /**
@@ -90,5 +99,13 @@ public class WebSocketController {
             e.printStackTrace();
         }
         throwable.printStackTrace();
+    }
+
+    private static synchronized void addOnlineCount() {
+        WebSocketController.onlineCount++;
+    }
+
+    private static synchronized void subOnlineCount() {
+        WebSocketController.onlineCount--;
     }
 }
