@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- sockjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.6.0/sockjs.min.js"></script>
+    <!-- stomp -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="/main.js"></script>
+    
+</head>
+<body>
+    <div>
+        <label>Message</label>
+        <input type="text" id="message">
+        <button id="send">Send</button>
+    </div>
+
+    <p>
+
+    <div>
+        <label>Private Message</label>
+        <input type="text" id="private-message">
+        <button id="send-private">Send</button>
+    </div>
+
+    <p>
+    
+    <div>
+        <table id="message-history" class="table table-striped">
+            <thead>
+            <tr>
+                <th>notification messages
+                    <span
+                            id="notifications"
+                            style="
+                            color: white;
+                            background-color: red;
+                            padding-left: 15px;
+                            padding-right: 15px;">
+                    </span>
+                </th>
+            </tr>
+            </thead>
+            <tbody id="messages">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
